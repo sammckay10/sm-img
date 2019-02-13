@@ -1,0 +1,1 @@
+// SmImg: CommonJS Main

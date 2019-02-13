@@ -1,0 +1,7 @@
+sm-img {
+  display: block;
+}
+
+sm-img img {
+  max-width: 100%;
+}

@@ -1,3 +1,4 @@
+import '../../stencil.core';
 export declare class StImg {
     el: HTMLElement;
     src: string;

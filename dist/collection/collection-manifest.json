@@ -1,24 +1,27 @@
 {
   "components": [
     {
-      "tag": "st-img",
+      "tag": "sm-img",
+      "dependencies": [],
       "componentClass": "StImg",
-      "componentPath": "components/st-img/st-img.js",
+      "componentPath": "components/sm-img/sm-img.js",
       "styles": {
         "$": {
           "stylePaths": [
-            "components/st-img/st-img.scss"
+            "components/sm-img/sm-img.css"
           ]
         }
       },
       "props": [
         {
           "name": "alt",
-          "type": "string"
+          "type": "String",
+          "attr": "alt"
         },
         {
           "name": "src",
-          "type": "string"
+          "type": "String",
+          "attr": "src"
         }
       ],
       "states": [
@@ -28,20 +31,14 @@
       ],
       "hostElement": {
         "name": "el"
-      },
-      "shadow": true
+      }
     }
   ],
-  "bundles": [
-    {
-      "components": [
-        "st-img"
-      ]
-    }
-  ],
+  "collections": [],
   "compiler": {
     "name": "@stencil/core",
-    "version": "0.0.8-9",
-    "typescriptVersion": "2.6.2"
-  }
+    "version": "0.16.2",
+    "typescriptVersion": "3.2.2"
+  },
+  "bundles": []
 }

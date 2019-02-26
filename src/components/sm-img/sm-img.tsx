@@ -4,7 +4,7 @@ import { Component, Element, Prop, State } from '@stencil/core'
   tag: 'sm-img',
   styleUrl: 'sm-img.css'
 })
-export class StImg {
+export class SmImg {
   @Element() el: HTMLElement
 
   @Prop() src: string
